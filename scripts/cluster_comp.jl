@@ -1,3 +1,5 @@
+
+# Next files are the imports, InfoSeries is my personal repository.
 using InfoSeries
 using LinearAlgebra, DelimitedFiles, StatsBase, Plots, Clustering, Random, Statistics
 pyplot(guidefont=20, titlefont=20,xtickfont=10, ytickfont=10)
