@@ -5,7 +5,7 @@ pyplot(guidefont=20, titlefont=20,xtickfont=10, ytickfont=10)
 #Variables
 subt = ["Healthy","Basal","Her2", "LumA","LumB"]
 ch = ARGS[1]
-ch = 8
+
 #number of surrogate matrices
 ################################################################################
 s = subt[4]

@@ -25,7 +25,7 @@ end
 ################################################################################
 #LOADING DATA
 ch = parse_commandline()["c"]
-ch = 1
+#ch = 1
 c1 = readdlm("ClusterDataTh-$ch-$(subt[2]).dat")
 nc1 = maximum(c1[:,2])
 #m1 = corr_mat(convert(Array{Float64,2},readdlm("$(subt[2])_chr_$ch.txt")[:, 2:end-1]))
